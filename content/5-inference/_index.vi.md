@@ -111,7 +111,7 @@ Sau khi đã cài đặt xong mọi thứ, ta điểm thử đầu ra của vi�
                           THICKNESS)
     ```
 
-    ![](images/runinference/003.png)
+    ![](../images/runinference/003.png)
 
     3. Kết quả như sao:
     
@@ -121,4 +121,4 @@ Sau khi đã cài đặt xong mọi thứ, ta điểm thử đầu ra của vi�
     plt.axis('off')
     ```
     
-    ![](images/runinference/004.png)
+    ![](../images/runinference/004.png)

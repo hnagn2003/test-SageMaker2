@@ -50,9 +50,9 @@ pre : " <b> 3.1 </b> "
                                   endpoint_name=ENDPOINT_NAME)
 
         
-![](images/saved/014-runpredict.png)
+![](../../images/saved/014-runpredict.png)
   
   When the deploying complete, open Amazon SageMaker > Endpoints and you will see the endpoints we created with above lines of code.
   
-  ![](images/saved/018.png)
+  ![](../../images/saved/018.png)
         

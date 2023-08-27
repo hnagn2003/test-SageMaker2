@@ -37,9 +37,9 @@ pre : " <b> 4.1 </b> "
     RUN rm -rf /packages/opencv-python-3.7/
     ```
     
-    ![](images/lambda/006.png)
-    ![](images/lambda/007.png)
-    ![](images/lambda/008.png)
+    ![](../../images/lambda/006.png)
+    ![](../../images/lambda/007.png)
+    ![](../../images/lambda/008.png)
     
 2. Kéo **Docker image** và xây dựng **Container**
     
@@ -49,7 +49,7 @@ pre : " <b> 4.1 </b> "
     
     This progess may take some time to finish.
     
-    ![](images/lambda/buildimage.png)
+    ![](../../images/lambda/buildimage.png)
     
 3. Sau đó chạy Lambda layers container
     

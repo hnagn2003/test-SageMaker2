@@ -70,8 +70,8 @@ pre : " <b> 4.2 </b> "
         }
     ```
     Upload this file to the folder contain yolov5 and Docker folders
-    ![](images/lambda/004.png)
-    ![](images/lambda/009.png)
+    ![](../../images/lambda/004.png)
+    ![](../../images/lambda/009.png)
     
 2. Zip it and pass it to S3
     
@@ -83,15 +83,15 @@ pre : " <b> 4.2 </b> "
     !aws s3 cp app.zip s3://ml-bucket-123/yolov5/app.zip
     ```
     
-    ![](images/lambda/zipapp.png)
+    ![](../../images/lambda/zipapp.png)
     
 3. Then create Lambda function and config it
     - Get your Lambda layer that contains cv2 ARN
   
-    ![](images/lambda/cv2.png)
+    ![](../../images/lambda/cv2.png)
     
     - and copy the ARN
-    ![](images/lambda/cv2_2.png)
+    ![](../../images/lambda/cv2_2.png)
 
     - Next we deploy Lambda function
     
@@ -114,7 +114,7 @@ pre : " <b> 4.2 </b> "
     where 
     
     - <cv2_ARN> : your cv2 ARN you copied
-![](images/lambda/010.png)
+![](../../images/lambda/010.png)
 
 4. You will see the function you created in the console
-![](images/lambda/011.png)
+![](../../images/lambda/011.png)

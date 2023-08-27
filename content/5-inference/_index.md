@@ -111,7 +111,7 @@ After all is up, we test the output from invoking Lambda function by uploading a
                           THICKNESS)
     ```
 
-    ![](images/runinference/003.png)
+    ![](../images/runinference/003.png)
 
     3. And show the result:
     
@@ -121,4 +121,4 @@ After all is up, we test the output from invoking Lambda function by uploading a
     plt.axis('off')
     ```
     
-    ![](images/runinference/004.png)
+    ![](../images/runinference/004.png)

@@ -32,4 +32,4 @@ print('Results: ', result)
 
 2. If you got this output then your endpoint run properly.
 
-![](images/saved/017-testendpoint.png)
+![](../../images/saved/017-testendpoint.png)

@@ -70,8 +70,8 @@ pre : " <b> 4.2 </b> "
         }
     ```
     Tải file này lên thư mục chứa thư mục **Docker** và **yolov5**
-    ![](images/lambda/004.png)
-    ![](images/lambda/009.png)
+    ![](../../images/lambda/004.png)
+    ![](../../images/lambda/009.png)
     
 2. Nén và vứt lên S3
     
@@ -83,15 +83,15 @@ pre : " <b> 4.2 </b> "
     !aws s3 cp app.zip s3://ml-bucket-123/yolov5/app.zip
     ```
     
-    ![](images/lambda/zipapp.png)
+    ![](../../images/lambda/zipapp.png)
     
 3. Sau đó tạo Lambda function and config it
     - Get your Lambda layer that contains cv2 ARN
   
-    ![](images/lambda/cv2.png)
+    ![](../../images/lambda/cv2.png)
     
     - and copy the ARN
-    ![](images/lambda/cv2_2.png)
+    ![](../../images/lambda/cv2_2.png)
 
     - Next we create Lambda function
     
@@ -114,7 +114,7 @@ pre : " <b> 4.2 </b> "
     where 
     
     - <cv2_ARN> : your cv2 ARN you copied
-![](images/lambda/010.png)
+![](../../images/lambda/010.png)
 
 4. Ta sẽ thấy function được tạo trong bảng điều khiển
-![](images/lambda/011.png)
+![](../../images/lambda/011.png)

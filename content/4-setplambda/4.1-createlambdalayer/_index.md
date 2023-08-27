@@ -38,9 +38,9 @@ pre : " <b> 4.1 </b> "
     RUN rm -rf /packages/opencv-python-3.7/
     ```
     
-    ![](images/lambda/006.png)
-    ![](images/lambda/007.png)
-    ![](images/lambda/008.png)
+    ![](../../images/lambda/006.png)
+    ![](../../images/lambda/007.png)
+    ![](../../images/lambda/008.png)
     
 2. Pull and build the docker image
     
@@ -50,7 +50,7 @@ pre : " <b> 4.1 </b> "
     
     This progess may take some time to finish.
     
-    ![](images/lambda/buildimage.png)
+    ![](../../images/lambda/buildimage.png)
     
 3. Then run Lambda layers container
     

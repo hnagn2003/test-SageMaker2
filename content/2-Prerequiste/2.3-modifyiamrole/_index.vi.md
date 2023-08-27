@@ -12,19 +12,19 @@ Role bạn tạo trước đó khi tạo SageMaker notebook chỉ cấp quyền 
 
 1. Mở **IAM role** từ SageMaker notebook instance của ta, lưu trữ ARN id này để về sau.
     
-    ![](images/lambda/014-runpredict.png)
-    ![](images/lambda/015.png)
+    ![](../../images/lambda/014-runpredict.png)
+    ![](../../images/lambda/015.png)
 
 2. Thêm quyền S3 and Lambda
     
-    ![](images/lambda/003.png)
-    ![](images/lambda/002.png)
+    ![](../../images/lambda/003.png)
+    ![](../../images/lambda/002.png)
 
 3. Thêm trust policy cho Lambda
     
     
     Click **Edit trust policy**
-    ![](images/lambda/006.png)
+    ![](../../images/lambda/006.png)
     Thêm đoạn mã này
     ```jsx
     {
@@ -35,5 +35,5 @@ Role bạn tạo trước đó khi tạo SageMaker notebook chỉ cấp quyền 
         "Action": "sts:AssumeRole"
     }
     ```
-    ![](images/lambda/008.png)
+    ![](../../images/lambda/008.png)
     Sau đó click **Update policy**

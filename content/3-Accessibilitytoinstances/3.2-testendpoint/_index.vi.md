@@ -30,4 +30,4 @@ print('Results: ', result)
 
 2. Nếu ra kết quả như thế này thì endpoint của bạn đã làm việc đúng cách.
 
-![](images/saved/017-testendpoint.png)
+![](../../images/saved/017-testendpoint.png)

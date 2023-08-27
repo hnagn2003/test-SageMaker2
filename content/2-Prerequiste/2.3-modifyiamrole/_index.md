@@ -12,18 +12,18 @@ The role you create along with SageMaker in above only have SageMaker access. In
 
 1. Open **IAM role** from your SageMaker notebook instance, save its ARN for later.
     
-    ![](images/lambda/014-runpredict.png)
-    ![](images/lambda/015.png)
+    ![](../../images/lambda/014-runpredict.png)
+    ![](../../images/lambda/015.png)
 2. Add S3 and Lambda permission
     
-    ![](images/lambda/003.png)
-    ![](images/lambda/002.png)
+    ![](../../images/lambda/003.png)
+    ![](../../images/lambda/002.png)
 
 3. Add trust policy for Lambda
     
     
     Click **Edit trust policy**
-    ![](images/lambda/006.png)
+    ![](../../images/lambda/006.png)
     Add this script
     ```jsx
     {
@@ -34,5 +34,5 @@ The role you create along with SageMaker in above only have SageMaker access. In
         "Action": "sts:AssumeRole"
     }
     ```
-    ![](images/lambda/008.png)
+    ![](../../images/lambda/008.png)
     Then **Update policy**
