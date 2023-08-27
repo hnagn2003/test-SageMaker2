@@ -8,6 +8,8 @@ pre : " <b> 4. </b> "
 
 # Set up **Lambda**
 
+ 
+When an image is feed to the system, it acts as a trigger to run the Lambda function. Then the Lambda function utilizes Lambda layers to run inference for that image using endpoints. In the next steps we will set the Lambda layers and Lambda function up.
 **Lambda** doesn’t come with external libraries like OpenCV pre-built, therefore we need to build it before we can invoke the Lambda code.
 
    - [Create **Lambda layers** using **Docker**](4.1-createlambdalayer/)

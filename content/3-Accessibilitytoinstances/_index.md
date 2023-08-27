@@ -6,6 +6,7 @@ chapter : false
 pre : " <b> 3. </b> "
 ---
 
+After initializing the environment, we need to create an endpoint so the Lambda layer can read the upload image and run the inference on it.
 
 ### Content:
   - [Forward model weight to endpoint](3.1-hostmodel/)
