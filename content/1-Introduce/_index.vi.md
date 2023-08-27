@@ -24,4 +24,4 @@ Trong bài thực hành này, chúng ta sẽ triển khai mô hình YOLOv5 đư�
 
 Việc tải lên một hình ảnh lên S3 sẽ kích hoạt Lambda function. OpenCV được tích hợp trên Lambda layers để sẽ thực hiện việc suy luận và tính toán kết quả phát hiện vật thể.
 
-![](images/workshop-cicd.png)
+![](../images/workshop-cicd.png)

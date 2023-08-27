@@ -18,26 +18,6 @@ For complex deep learning machine models with large weights, when we need to run
 In this lab, we will deploy pretrained YOLOv5 model using SakeMaker endpoint and invoke the endpoint using Lambda. The SageMaker notebook call the model from S3 Bucket.
 
 Uploading an image to the S3 will trigger Lambda function. OpenCV will go with Lambda layers for running the inference and produce the object detection results.
-1.
-![](static/images/workshop-cicd.png)
-2. 
-![](./static/images/workshop-cicd.png)
-3. 
-![](./images/workshop-cicd.png)
-4. 
-![](images/workshop-cicd.png)
-5. 
-![](./workshop-cicd.png)
-6.
-![](workshop-cicd.png)
 
-
-
-2. 
-![](../static/images/workshop-cicd.png)
-3. 
 ![](../images/workshop-cicd.png)
-4. 
-![](/images/workshop-cicd.png)
-5. 
-![](../workshop-cicd.png)
+
