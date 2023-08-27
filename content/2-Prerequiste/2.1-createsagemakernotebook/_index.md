@@ -9,11 +9,11 @@ pre : " <b> 2.1 </b> "
 1. **Create a notebook instance**:
 - Name: ```ml-inference```
 - Type: ```ml.c5.xlarge```
-
-  ![](../../static/images/saved/00.png)
-  ![](../../static/images/saved/000.png)
-  ![](../../static/images/saved/001.png)
-  ![](../../static/images/saved/002.png)
+1
+  ![](../images/saved/00.png)2
+  ![](/../images/saved/000.png)3
+  ![](../../images/saved/001.png)4
+  ![](../../images/saved/002.png)5
 
 - In Permissions and encryption field, we create a role for this SageMaker
 
